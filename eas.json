@@ -20,15 +20,21 @@
     },
     "preview1": {
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
       }
     },
     "preview2": {
       "android": {
-        "gradleCommand": ":app:assembleRelease"
+        "gradleCommand": ":app:assembleRelease",
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
       }
     },
-    "production": {}
+    "production": {
+      "android": {
+        "image": "ubuntu-22.04-jdk-17-ndk-r25b"
+      }
+    }
   },
   "submit": {
     "production": {}
